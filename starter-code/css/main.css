@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: inline-block;
+}
+
+.spot {
+    float: left;
+    padding-left: 10px;
+    height: 35px;
+}
+.links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    list-style-type: none;
+    margin: 0px 10px 0 0;
+}
+  
+.links li {
+    display: inline-block;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 10px;
+  }
+.sec1-wrap {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.sec1-wrap h1 {
+    padding-top: 200px;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(253, 252, 252);
+}
+
+.sec1-wrap p {
+    padding-top: 50px;
+    width: 400px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(253, 252, 252);
+}
+
+.boxes {
+    width:90%;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top: 40px;
+    background-color: white;
+}
+
+.whats-on-top h2 {
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.serv-box {
+    width:30%;
+    float:left;
+    text-align:center;
+}
+  
+.serv-box-mid {
+    text-align: center;
+    margin-left:70px;
+    margin-right:70px;
+}
+
+.serv-box-right {
+    width:30%;
+    float:right;
+    text-align:center;
+}
+
+.music {
+    height: 75px;
+}
+
+    .hd {
+    height: 75px;
+}
+    .devices {
+    height: 75px;
+}
+
+.sec2-wrap h4 {
+    color: #00B172
+}
+
+.yeezy-sucks {
+    color: white;
+    height: 525px;
+    padding-top: 40px;
+    background-color: #00B172;
+}
+
+.sec3-text {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.app {
+    float: right;
+    padding-right: 40px;
+    height: 450px;
+}
+
+.yeezy-top {
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    text-decoration-color: white;
+}
+
+.wicon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35px;
+}
+
+.sec4-text h4 {
+    font-size: 1.5rem;
+}
